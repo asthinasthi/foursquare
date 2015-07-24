@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="FourSquareApp">
+<head>
+	<title>Enjoy Foursquare with me</title>
+	<link href="/stylesheets/bootstrap.min.css" rel="stylesheet" />
+	<link href="/stylesheets/toaster.css" rel="stylesheet" />
+	<link href="/stylesheets/loading-bar.css" rel="stylesheet" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link href="/favicon.ico" rel="shortcut icon" />
+</head>
+<body>
+	<div id="page">
+		<header class="container">
+			<div class="navbar navbar-default" id="menu">
+				<button class="btn btn-success navbar-toggle"></button>
+				<div id="logo">
+					<h4>Explore Foursquare</h4>
+				</div>
+			
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#/explore">Explore</a></li>
+						<li><a href="#/places">My Places</a></li>
+						<li><a href="#/About">About</a></li>
+						<li><a href="#/tips">Tips</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<section class="container" id="body">
+			<div ng-view=""></div>
+		</section>
+		<hr />
+
+		<footer class="container">
+			Created By : Anirudh Mathad
+		</footer>
+	</div>
+<!-- 3rd party libraries -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-route.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-resource.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-animate.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.9.0/ui-bootstrap.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.9.0/ui-bootstrap-tpls.min.js"></script>
+<script type="text/javascript" src="/javascripts/toaster.js"></script>
+<script type="text/javascript" src="/javascripts/loading-bar.js"></script>
+<script type="text/javascript" src="/javascripts/AngularApp.js"></script>
+ <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+ <script type="text/javascript" src="/javascripts/ng-google-chart.js"></script>
+</body>
+</html>
