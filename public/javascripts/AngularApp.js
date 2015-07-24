@@ -274,8 +274,8 @@ $scope.getTipsByVenue($scope.venueId);
 });
 /***************************************************/
 var requestParams = {
-	clientId: "JYCK2M5ARLWV33UWT2L5YWIEFSRRVQ55QZIMJPQOOJXHSXFS",
-    clientSecret: "MNSIVXYQXPSZ534I5EEZ4Z2X0JKHHQSPHWCOBO2OA0AJI4WW",
+	clientId: "",
+    clientSecret: "",
     version: "20131230"
 };
 
